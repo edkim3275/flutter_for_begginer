@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1060967167971",
+    "project_id": "edkim-learning-dart",
+    "storage_bucket": "edkim-learning-dart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060967167971:android:fd1d4ef3faf3f8529852d6",
+        "android_client_info": {
+          "package_name": "com.example.learningdart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060967167971-7th670949sql7igu4256pp4cjv040i21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_TfkGzE0pNeOeSP_FUdeoZwAmyiPqt5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060967167971-7th670949sql7igu4256pp4cjv040i21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
