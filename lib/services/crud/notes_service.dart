@@ -15,7 +15,7 @@ class NoteService {
 
   DatabaseUser? _user;
 
-  // create a private constructor
+  // create a private constructor(singleton)
   static final NoteService _shared = NoteService._sharedInstance();
   NoteService._sharedInstance() {
     _notesStreamController = StreamController<List<DatabaseNote>>.broadcast(
