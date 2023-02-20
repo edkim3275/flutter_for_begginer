@@ -5,6 +5,7 @@ import 'package:learningdart/services/auth/bloc/auth_event.dart';
 import 'package:learningdart/services/auth/bloc/auth_state.dart';
 import 'package:learningdart/views/login_view.dart';
 import 'package:learningdart/views/notes/notes_view.dart';
+import 'package:learningdart/views/register_view.dart';
 import 'package:learningdart/views/verify_email_view.dart';
 
 class HomePage extends StatelessWidget {
@@ -21,6 +22,8 @@ class HomePage extends StatelessWidget {
           return const VerifyEmailView();
         } else if (state is AuthStateLoggedOut) {
           return const LoginView();
+        } else if (state is AuthStateRegistering) {
+          return const RegisterView();
         } else {
           return const Scaffold(
             body: CircularProgressIndicator(),
